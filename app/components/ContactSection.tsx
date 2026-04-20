@@ -7,63 +7,52 @@ export default function ContactSection() {
         <h2 className="text-3xl font-bold">Contact</h2>
 
         <p className="mt-4 max-w-2xl text-slate-300">
-          I am currently open to UX/UI Design and Frontend Development opportunities. Feel free to reach out through any of the channels below.
+          สามารถติดต่อได้ผ่านช่องทางด้านล่างนี้
         </p>
 
-        {/* Contact Cards */}
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          
-          {/* Email */}
           <a
+            href="mailto:Shavenkim3@gmail.com"
             className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center transition hover:-translate-y-1 hover:bg-white/10"
           >
             <p className="text-sm text-cyan-300">Email</p>
-            <p className="mt-2 text-sm text-slate-300">
-              Shavenkim3@gmail.com
-            </p>
+            <p className="mt-2 text-sm text-slate-300">Shavenkim3@gmail.com</p>
           </a>
 
-          {/* Phone */}
           <a
-            href=""
+            href="tel:0649283294"
             className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center transition hover:-translate-y-1 hover:bg-white/10"
           >
             <p className="text-sm text-indigo-300">Phone</p>
-            <p className="mt-2 text-sm text-slate-300">
-              064-9283294
-            </p>
+            <p className="mt-2 text-sm text-slate-300">064-9283294</p>
           </a>
 
-          {/* Line */}
           <a
             href="https://line.me/ti/p/F79A4lRTmZ"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center transition hover:-translate-y-1 hover:bg-white/10"
           >
             <p className="text-sm text-green-300">Line</p>
-            <p className="mt-2 text-sm text-slate-300">
-              0969512085 
-            </p>
+            <p className="mt-2 text-sm text-slate-300">0969512085</p>
           </a>
 
-          {/* GitHub */}
           <a
             href="https://github.com/shavenkim3"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center transition hover:-translate-y-1 hover:bg-white/10"
           >
             <p className="text-sm text-white">GitHub</p>
-            <p className="mt-2 text-sm text-slate-300">
-              github.com/shavenkim3
-            </p>
+            <p className="mt-2 text-sm text-slate-300">github.com/shavenkim3</p>
           </a>
         </div>
 
-        {/* Bottom Button */}
         <div className="mt-10 flex flex-wrap gap-4">
           <Link
             href="https://github.com/shavenkim3"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-2xl border border-white/20 px-6 py-3 font-medium text-white transition hover:bg-white/10"
           >
             View GitHub
