@@ -89,4 +89,36 @@ export const projects = [
     figma: "https://www.figma.com/design/AV4pCzPfEBYYgUBaR2kM3H/IT-Project?node-id=0-1&t=OUgPydIzyUaTlTcF-1",
   },
 },
+{
+  slug: "hypestep-sneaker-store",
+  title: "HypeStep Sneaker Store",
+  type: "Frontend Developer",
+  shortDescription:
+    "พัฒนา Frontend สำหรับเว็บไซต์ร้านขายรองเท้า HypeStep โดยเน้นประสบการณ์ใช้งานที่ทันสมัย ค้นหาสินค้าได้ง่าย และรองรับการสั่งซื้อผ่านระบบออนไลน์",
+
+  description:
+    "HypeStep เป็นเว็บไซต์ร้านขายรองเท้าที่พัฒนาขึ้นเพื่อให้ผู้ใช้งานสามารถเลือกชมและสั่งซื้อรองเท้าได้อย่างสะดวกผ่านระบบออนไลน์ ภายในเว็บไซต์มีการจัดหมวดหมู่สินค้า เช่น Best Sellers, New Arrivals, Brands, Men, Women และ Sale เพื่อช่วยให้ผู้ใช้งานเข้าถึงสินค้าที่ต้องการได้ง่ายยิ่งขึ้น ในส่วนของ Frontend ได้ออกแบบและพัฒนาอินเทอร์เฟซให้มีความทันสมัย ใช้งานง่าย จัดวางข้อมูลอย่างเป็นระเบียบ และรองรับการใช้งานบนหลายขนาดหน้าจอ เพื่อให้ประสบการณ์การใช้งานลื่นไหลทั้งบนมือถือและเดสก์ท็อป",
+
+  tools: ["React", "Next.js", "Tailwind CSS"],
+
+  image: "/projects/projects5.jpg",
+
+  role: "Frontend Developer",
+
+  year: "2026",
+
+  features: [
+    "พัฒนาหน้าแสดงรายการสินค้าและรายละเอียดสินค้า",
+    "ออกแบบระบบกรองสินค้า เช่น แบรนด์ ประเภท สี และช่วงราคา",
+    "พัฒนาหน้า Cart, Checkout และ Order Success สำหรับขั้นตอนการสั่งซื้อ",
+    "จัดหมวดหมู่สินค้า เช่น Best Sellers, New Arrivals, Men, Women และ Sale",
+    "ออกแบบ UI ให้ทันสมัย ใช้งานง่าย และรองรับการแสดงผลแบบ Responsive",
+  ],
+
+  links: {
+    live: "https://hype-step-store.vercel.app/",
+    github: "https://github.com/shavenkim3/HypeStepStore",
+    figma: "",
+  },
+},
 ];
