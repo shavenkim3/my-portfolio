@@ -1,3 +1,4 @@
+// Update
 export const projects = [
   {
     slug: "snackgo-food-ordering-app",
