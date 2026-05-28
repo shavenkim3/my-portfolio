@@ -107,6 +107,7 @@ export default async function ProjectDetailPage({ params }) {
 
                 <div>
                   <p className="text-sm text-slate-400">Tools</p>
+
                   <div className="mt-3 flex flex-wrap gap-2">
                     {project.tools.map((tool) => (
                       <span
@@ -122,7 +123,9 @@ export default async function ProjectDetailPage({ params }) {
 
               {hasLinks && (
                 <div className="mt-8 border-t border-white/10 pt-6">
-                  <p className="text-sm text-slate-400">Project Links</p>
+                  <p className="text-sm text-slate-400">
+                    Project Links
+                  </p>
 
                   <div className="mt-4 grid gap-3 sm:grid-cols-1">
                     {project.links?.live && (
@@ -163,6 +166,48 @@ export default async function ProjectDetailPage({ params }) {
                   </div>
                 </div>
               )}
+
+              {project.demoAccount && (
+                <div className="mt-8 border-t border-white/10 pt-6">
+                  <p className="text-sm text-slate-400">
+                    Demo Account
+                  </p>
+
+                  <div className="mt-4 space-y-4">
+                    <div className="rounded-2xl border border-white/15 bg-white/5 p-4">
+                      <p className="text-sm font-semibold text-cyan-300">
+                        User Account
+                      </p>
+
+                      <div className="mt-2 space-y-1 text-sm text-slate-300">
+                        <p>
+                          Email: {project.demoAccount.user.email}
+                        </p>
+
+                        <p>
+                          Password: {project.demoAccount.user.password}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="rounded-2xl border border-white/15 bg-white/5 p-4">
+                      <p className="text-sm font-semibold text-pink-300">
+                        Admin Account
+                      </p>
+
+                      <div className="mt-2 space-y-1 text-sm text-slate-300">
+                        <p>
+                          Email: {project.demoAccount.admin.email}
+                        </p>
+
+                        <p>
+                          Password: {project.demoAccount.admin.password}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </section>
@@ -170,3 +215,4 @@ export default async function ProjectDetailPage({ params }) {
     </main>
   );
 }
+

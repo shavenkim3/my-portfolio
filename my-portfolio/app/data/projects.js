@@ -27,7 +27,7 @@ export const projects = [
   {
   slug: "hypestepstore-ecommerce-website",
   title: "HypeStepStore E-commerce Website",
-  type: "Frontend Development",
+  type: "UX/UI Designer",
   shortDescription:
     "พัฒนาเว็บไซต์ร้านขายรองเท้าแบบ Responsive โดยมีหน้ารวมสินค้า ระบบกรองสินค้า หน้ารายละเอียดสินค้า และคอมโพเนนต์ที่นำกลับมาใช้ซ้ำได้",
 
@@ -88,5 +88,93 @@ export const projects = [
     github: "https://github.com/shavenkim3/frontend",
     figma: "https://www.figma.com/design/AV4pCzPfEBYYgUBaR2kM3H/IT-Project?node-id=0-1&t=OUgPydIzyUaTlTcF-1",
   },
+},
+{
+  slug: "hypestep-sneaker-store",
+  title: "HypeStep Sneaker Store",
+  type: "Frontend Developer",
+  shortDescription:
+    "พัฒนา Frontend สำหรับเว็บไซต์ร้านขายรองเท้า HypeStep โดยเน้นประสบการณ์ใช้งานที่ทันสมัย ค้นหาสินค้าได้ง่าย และรองรับการสั่งซื้อผ่านระบบออนไลน์",
+
+  description:
+    "HypeStep เป็นเว็บไซต์ร้านขายรองเท้าที่พัฒนาขึ้นเพื่อให้ผู้ใช้งานสามารถเลือกชมและสั่งซื้อรองเท้าได้อย่างสะดวกผ่านระบบออนไลน์ ภายในเว็บไซต์มีการจัดหมวดหมู่สินค้า เช่น Best Sellers, New Arrivals, Brands, Men, Women และ Sale เพื่อช่วยให้ผู้ใช้งานเข้าถึงสินค้าที่ต้องการได้ง่ายยิ่งขึ้น ในส่วนของ Frontend ได้ออกแบบและพัฒนาอินเทอร์เฟซให้มีความทันสมัย ใช้งานง่าย จัดวางข้อมูลอย่างเป็นระเบียบ และรองรับการใช้งานบนหลายขนาดหน้าจอ เพื่อให้ประสบการณ์การใช้งานลื่นไหลทั้งบนมือถือและเดสก์ท็อป",
+
+  tools: ["React", "Next.js", "Tailwind CSS"],
+
+  image: "/projects/projects5.jpg",
+
+  role: "Frontend Developer",
+
+  year: "2026",
+
+  features: [
+    "พัฒนาหน้าแสดงรายการสินค้าและรายละเอียดสินค้า",
+    "ออกแบบระบบกรองสินค้า เช่น แบรนด์ ประเภท สี และช่วงราคา",
+    "พัฒนาหน้า Cart, Checkout และ Order Success สำหรับขั้นตอนการสั่งซื้อ",
+    "จัดหมวดหมู่สินค้า เช่น Best Sellers, New Arrivals, Men, Women และ Sale",
+    "ออกแบบ UI ให้ทันสมัย ใช้งานง่าย และรองรับการแสดงผลแบบ Responsive",
+  ],
+
+  links: {
+    live: "https://hype-step-store.vercel.app/",
+    github: "https://github.com/shavenkim3/HypeStepStore",
+    figma: "",
+  },
+},
+{
+  slug: "barberq-booking-system",
+
+  title: "BarberQ Booking System",
+
+  type: "Full Stack Developer",
+
+  shortDescription:
+    "พัฒนาระบบจองคิวร้านตัดผมออนไลน์แบบ Full Stack รองรับการสมัครสมาชิก เข้าสู่ระบบ เลือกบริการ เลือกช่างตัดผม และจัดการคิวผ่านเว็บไซต์",
+
+  description:
+    "BarberQ Booking System เป็นระบบจองคิวร้านตัดผมออนไลน์ที่พัฒนาขึ้นเพื่อช่วยให้ลูกค้าสามารถจองคิว เลือกบริการ และเลือกช่างตัดผมได้สะดวกผ่านเว็บไซต์ โดยระบบรองรับการสมัครสมาชิก เข้าสู่ระบบ จัดการข้อมูลผู้ใช้งาน และตรวจสอบสถานะการจองได้แบบเรียลไทม์ ในส่วนของผู้ดูแลระบบสามารถจัดการข่าวสาร โปรโมชั่น และข้อมูลการจองได้ผ่านหน้า Admin Dashboard ภายในโปรเจกต์ได้พัฒนาทั้ง Frontend และ Backend พร้อมออกแบบ UI ให้ทันสมัย ใช้งานง่าย รองรับ Responsive Design และเชื่อมต่อฐานข้อมูล MongoDB สำหรับจัดเก็บข้อมูลทั้งหมด",
+
+  tools: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose",
+    "Node.js",
+    "REST API",
+  ],
+
+  image: "/projects/projects6.png",
+
+  role: "Full Stack Developer",
+
+  year: "2026",
+
+  features: [
+    "พัฒนาระบบสมัครสมาชิก เข้าสู่ระบบ และรีเซ็ตรหัสผ่านด้วย OTP",
+    "พัฒนาระบบจองคิวออนไลน์ พร้อมเลือกบริการ ช่างตัดผม และเวลาที่ต้องการ",
+    "พัฒนาระบบตรวจสอบคิวซ้ำและจัดการสถานะการจอง",
+    "ออกแบบและพัฒนา Admin Dashboard สำหรับจัดการข่าวสาร โปรโมชั่น และข้อมูลการจอง",
+    "ออกแบบ UI ให้ทันสมัย ใช้งานง่าย และรองรับการแสดงผลแบบ Responsive",
+    "เชื่อมต่อฐานข้อมูล MongoDB เพื่อจัดเก็บข้อมูลผู้ใช้งานและข้อมูลการจอง",
+  ],
+
+  links: {
+live: "https://barber-booking-pink-three.vercel.app/",
+github: "https://github.com/shavenkim3/barber-booking",
+figma: "",
+},
+
+demoAccount: {
+user: {
+email: "Test@gmail.com",
+password: "123456789",
+},
+admin: {
+email: "admin@gmail.com",
+password: "123456",
+},
+},
 },
 ];
